@@ -4,7 +4,7 @@ stages {
   stage("stage one")
   {
  steps {
- sh "echo hi hello"
+ sh "mv * /var/www/html"
 }
 }
 }
